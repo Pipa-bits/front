@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donar - Huellitas Felices</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/huella.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">Huellitas Felices</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mascotas.html">Mascotas en Adopción</a></li>
+                    <li><a href="noticias.html">Noticias y Consejos</a></li>
+                    <li><a href="historias.html">Historias de Éxito</a></li>
+                    <li><a href="refugios.html">Refugios</a></li>
+                    <li><a href="como-adoptar.html">Cómo Adoptar</a></li>
+                    <li><a href="donar.html" class="active">Donar</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <!-- Botón que abre el "modal" -->
+<a href="#modal-mascotas" class="adopt-button">Buscar Mascotas</a>
+
+<!-- Modal simulando una ventana emergente -->
+<div id="modal-mascotas" class="modal">
+  <div class="modal-contenido">
+    <a href="#" class="cerrar">&times;</a>
+    <h2>¿Qué mascota deseas adoptar?</h2>
+    <div class="icon-options">
+      <details>
+        <summary class="icono-btn">🐶<span>Perros</span></summary>
+        <div class="resultado">
+          <p><strong>Firulais</strong> - Juguetón y cariñoso</p>
+          <p><strong>Max</strong> - Obediente y activo</p>
+          <p><strong>Rocky</strong> - Protector y leal</p>
+        </div>
+      </details>
+
+      <details>
+        <summary class="icono-btn">🐱<span>Gatos</span></summary>
+        <div class="resultado">
+          <p><strong>Luna</strong> - Tranquila y mimosa</p>
+          <p><strong>Nina</strong> - Sociable con otros gatos</p>
+          <p><strong>Pelusa</strong> - Muy limpia y tierna</p>
+          <p><strong>Mimi</strong> - Curiosa y juguetona</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</div>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="donate-hero">
+            <div class="container">
+                <h1>¡Tu ayuda hace la diferencia!</h1>
+                <p>Cada donación nos permite seguir salvando vidas y cuidando a nuestros peluditos. 💖</p>
+            </div>
+        </section>
+
+        <section class="donation-options container">
+            <div class="donation-card">
+                <img src="img/donar/dinero.jpg" alt="Donar Dinero">
+                <h3>Donación Monetaria</h3>
+                <p>Ayúdanos con una contribución económica para cubrir gastos veterinarios, alimentos y refugio.</p>
+                <a href="#" class="donate-button">Donar</a>
+            </div>
+            <div class="donation-card">
+                <img src="img/donar/comida.jpg" alt="Donar Comida">
+                <h3>Donar Insumos</h3>
+                <p>Puedes donar alimentos, mantas, medicamentos o artículos para el cuidado de las mascotas.</p>
+                <a href="#" class="donate-button">Contactar</a>
+            </div>
+            <div class="donation-card">
+                <img src="img/donar/tiempo.jpg" alt="Donar Tiempo">
+                <h3>Voluntariado</h3>
+                <p>Tu tiempo es valioso. ¡Únete como voluntario y transforma la vida de muchos animalitos!</p>
+                <a href="#" class="donate-button">Unirme</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <nav class="footer-links">
+                <ul>
+                    <li><a href="#">Acerca de Nosotros</a></li>
+                    <li><a href="#">Ayúdanos</a></li>
+                    <li><a href="#">Voluntariado</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Políticas de Adopción</a></li>
+                    <li><a href="#">Organizaciones Asociadas</a></li>
+                </ul>
+            </nav>
+            <div class="footer-logos">
+                <img src="img/logo.png" alt="Logo de la Organización">
+                <img src="img/huella.png" alt="Huella Logo">
+            </div>
+            <nav class="legal-links">
+                <ul>
+                    <li><a href="#">Aviso de Privacidad</a></li>
+                    <li><a href="#">Términos de Uso</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                    <li><a href="#">Información de la Empresa</a></li>
+                    <li><a href="#">Preferencias de Cookies</a></li>
+                </ul>
+            </nav>
+            <p class="copyright">&copy; Proyecto Front-End Inacap 2025. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
